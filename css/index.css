@@ -1,0 +1,31 @@
+@import "./header.css";
+@import "./base.css";
+@import "./hero.css";
+@import "./media.css";
+@import "./tools.css";
+@import "./professionals.css";
+@import "./productmen.css";
+@import "./marketers.css";
+@import "./support.css";
+@import "./strategies.css";
+@import "./footer.css";
+
+@font-face{
+    src: url(../fonts/Montserrat.ttf);
+    font-family: "Montserrat";
+}
+
+.baba{
+    animation-name: arrow;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    transform-origin: bottom; 
+    left: -100px;
+    top: -100px;
+    animation-duration: 4s;
+}
+@keyframes arrow {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+    100% { transform: translateY(0); }
+

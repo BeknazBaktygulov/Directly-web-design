@@ -1,0 +1,9 @@
+.sector__footer{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 474px;
+}
+
+.footer__logo{
+    margin-right: 700px;
+}

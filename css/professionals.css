@@ -1,0 +1,23 @@
+.professionals{
+    margin-top: 90px;
+}
+.prof__content{
+    display: flex;
+    justify-content: space-between;
+}
+.prof__left{
+    position: relative;
+    font-size: 16px;
+    margin-right: 80px;
+}
+
+
+.prof__right{
+    position: relative;
+    opacity: 0.5;
+    transition: 0.4s;
+}
+.prof__right:hover{
+    opacity: 1;
+}
+

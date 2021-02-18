@@ -1,0 +1,23 @@
+.marketers{
+    margin-top: 90px;
+}
+.marketers__content{
+    display: flex;
+    justify-content: space-between;
+}
+.marketers__left{
+    position: relative;
+    font-size: 16px;
+  margin-right: 150px;
+}
+
+
+
+.marketers__right{
+    position: relative;
+    opacity: 0.5;
+    transition: 0.4s;
+}
+.marketers__right:hover{
+    opacity: 1;
+}

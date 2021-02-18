@@ -1,0 +1,23 @@
+.product__managers{
+    margin-top: 80px;
+}
+.productmen__content{
+    display: flex;
+ }
+.prof__blue{
+    position: relative;
+    opacity: 0.5;
+    transition: 0.4s;
+}
+.prof__blue:hover{
+    opacity: 1;
+}
+.lap__light{
+    left: 50px;
+    top: 80px;
+ }
+
+.productmen__right {        /* moved text to right to make space between text and pic */
+    margin-left: 150px;
+}
+

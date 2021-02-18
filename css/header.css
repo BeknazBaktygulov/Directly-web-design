@@ -1,0 +1,111 @@
+.header{
+    position: absolute;
+    width: 100%;
+    top: 0;
+    z-index: 55555;
+}
+.header__content{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+.header__logo{
+    display: flex;
+    align-items: center;
+}
+.img_logo{
+    width: 32px;
+}
+.right{
+    display: flex;
+    align-items: center;
+}
+.header__name{
+    color: #173A56;
+    font-size: 25px;
+    font-weight: 700;
+    margin-left: 11px;
+}
+.header__items{
+    opacity: 0.5;
+    color: black;
+    font-size: 14px;
+    margin-right: 29px;
+    font-weight: 900;
+    position: relative;
+}
+.header__items:hover{
+opacity: 1;
+}
+.header__items::before{
+    position: absolute;
+    transition: 0.5s;
+    content: "";
+    width: 0;
+    height: 3px;
+    bottom: -10px;
+    left: 0;
+    background: #000;
+}
+.header__items:hover::before{
+    width: 100%;
+}
+}
+.header__nav{
+    margin-right: 54px;
+    border-radius: 10px;
+    
+}
+.signin {
+    font-size: 16px;
+    margin-right: 14px;
+    padding: 16px 25px;
+    border: solid 1px #BCD0E5;
+    box-sizing: border-box;
+    background: transparent;
+    transition: 0.4s;
+}
+.signin:hover{
+    background-color:  #BCD0E5;
+    color: white;
+    box-shadow: 0px 0px 8px #BCD0E5;
+}
+
+.signup{
+    font-size: 16px;
+    color: #FF9900;
+    margin-right: 14px;
+    padding: 16px 25px;
+    background: transparent;
+    border: 1px solid #FF9900;
+    transition: 0.4s;
+    
+}
+
+.signup_below {                         /* created signup_below class and moved button lower */
+    margin-top: 70px;
+    font-size: 16px;
+    color: #FF9900;
+    margin-right: 14px;
+    padding: 16px 25px;
+    background: transparent;
+    border: 1px solid #FF9900;
+    transition: 0.4s;
+}
+
+.signup_below:hover {
+    background:  #FF9900;
+    color: white;
+    box-shadow: 0px 0px 8px #FF9900;
+}
+
+
+.signup:hover{
+    background:  #FF9900;
+    color: white;
+    box-shadow: 0px 0px 8px #FF9900;
+}
+.header__button{
+    font-size: 16px;
+    font-weight: 900;
+}

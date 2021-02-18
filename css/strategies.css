@@ -1,0 +1,28 @@
+.strategies{
+    margin-top: 90px;
+}
+.sector__strat{
+    display: flex;
+    margin-top: 80px;
+  
+}
+.strat__title{
+    display: flex;
+    
+    }
+
+.sector_strat{
+    display: flex;
+    justify-content: space-between;
+}
+
+.sector_strat_uch{
+    margin-left: 18px;
+}
+
+.strat__slider{
+    display: flex;
+    align-content: center;
+    margin-top: 45px;
+    margin-left: 480px;
+}

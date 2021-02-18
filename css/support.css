@@ -1,0 +1,44 @@
+#btn_1 {
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.container {
+    position: relative;
+}
+
+.toxic {
+    margin-left: 90px;
+}
+
+.oval__up{
+    position: absolute;
+}
+
+.sector__faces{
+    position: relative;
+}
+.baba{
+    top: 223px;
+    right: 1415px;
+    bottom: 514px;
+    left: 377px;
+}
+
+.faces__title{
+    position: relative;
+    display: flex;
+    align-items: center;
+
+}
+
+.designer {
+    top: 0;
+    left: 0;
+}
+
+.pitcher {
+    top: 0;
+    left: 550;
+    position: relative;
+}

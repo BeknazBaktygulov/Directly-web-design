@@ -1,0 +1,73 @@
+.container {
+    max-width: 1123px;
+    margin: 0 auto;
+}
+.flex {
+    display: flex;
+    justify-content: space-around;
+}
+.signup {
+    font-size: 16px;
+    color: #FF9900;
+    margin-right: 14px;
+    padding: 16px 25px;
+    background: transparent;
+    border: 1px solid #FF9900;
+    transition: 0.4s;
+}
+.signup:hover{
+    background: #FF9900;
+    color: white;
+    box-shadow: 0px 0px 8px #FF9900;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat";
+}
+img{
+    max-width: 100%;
+}
+a{
+    text-decoration: none;
+}
+button{
+    cursor: pointer;
+    border-radius: 5px;
+}
+.col-1{
+    max-width: 8.3333%;
+}
+.col-2{
+    max-width: 16.6666%;
+}
+.col-3{
+    max-width: 25%;
+}
+.col-4{
+    max-width: 33.3333%;
+}
+.col-5{
+    max-width: 41.6666%;
+}
+.col-6{
+    max-width: 50%;
+}
+.col-7{
+    max-width: 58.3333%;
+}
+.col-8{
+    max-width: 66.6666%;
+}
+.col-9{
+    max-width: 75%;
+}
+.col-10{
+    max-width: 83.3333%;
+}
+.col-11{
+    max-width: 91.6666%;
+}
+.col-12{
+    max-width: 100%;
+}
